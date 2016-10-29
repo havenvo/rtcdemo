@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/text_margin">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btCall"
+        android:maxLines="1"
+        android:text="@string/app_name"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btCall"
+        android:src="@android:drawable/sym_call_outgoing"
+        android:layout_width="@dimen/image_button_size_small"
+        android:layout_height="@dimen/image_button_size_small"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Call" />
+</RelativeLayout>

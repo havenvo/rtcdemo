@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "783270312654",
+    "project_id": "webrtc-demo-1337"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783270312654:android:d7f64ff04b98ea10",
+        "android_client_info": {
+          "package_name": "enc.harvey.webrtc.rtcdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsPPhQutDk9V3zr8sluVsUCb9rAl_-EjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
